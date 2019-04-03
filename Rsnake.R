@@ -1,9 +1,5 @@
 library(grDevices)
 
-x=8;y=8; isWall = T
-
-
-
 snake_game <- function(x= 16, y = 16, isWall = TRUE) {
   # plot - True means user controls, otherwise this could be solved with a solver function
   x11() # close with dev.off()
@@ -194,7 +190,7 @@ snake_game <- function(x= 16, y = 16, isWall = TRUE) {
   
 }
 
-snake_game(isWall = F)
-
+snake_game(isWall = T)
+  
 
 
